@@ -69,6 +69,7 @@ def startStringing():
 
 	#Wait for stringing
 	while PIL.ImageGrab.grab().load()[1869, 1030] == (117, 105, 74):
+		checkLevelUp()
 		continue
 
 
